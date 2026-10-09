@@ -21,13 +21,13 @@
       <span class="badge"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="14" height="11" rx="2"/><path d="M6 18h6M9 14v4"/><rect x="16" y="10" width="6" height="11" rx="1"/></svg></span>
       <span class="min0"><span class="brand-name">Rolex Ogada</span><span class="brand-role">Desktop Support Engineer</span></span>
     </a>
-    <nav class="nav-desktop"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+    <nav class="nav-desktop"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#skills">Skills</a><a href="#certifications">Certifications</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
     <div class="header-actions">
-      <a href="#contact" class="btn btn-primary hide-xs"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Download CV</a>
+      <a href="assets/CV.pdf" download="Rolex-Ogada-CV.pdf" class="btn btn-primary hide-xs"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Download CV</a>
       <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><svg class="icon menu-open" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg><svg class="icon menu-close" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
     </div>
   </div>
-  <nav id="mobileNav" class="nav-mobile" hidden><a href="#home" class="mobile-link">Home</a><a href="#about" class="mobile-link">About</a><a href="#services" class="mobile-link">Services</a><a href="#skills" class="mobile-link">Skills</a><a href="#experience" class="mobile-link">Experience</a><a href="#projects" class="mobile-link">Projects</a><a href="#contact" class="mobile-link">Contact</a></nav>
+  <nav id="mobileNav" class="nav-mobile" hidden><a href="#home" class="mobile-link">Home</a><a href="#about" class="mobile-link">About</a><a href="#services" class="mobile-link">Services</a><a href="#skills" class="mobile-link">Skills</a><a href="#certifications" class="mobile-link">Certifications</a><a href="#experience" class="mobile-link">Experience</a><a href="#projects" class="mobile-link">Projects</a><a href="#contact" class="mobile-link">Contact</a></nav>
 </header>
 
 <main>
@@ -74,7 +74,7 @@
           </svg>
         </a>
 
-        <a href="#contact" class="btn btn-outline btn-lg">
+        <a href="assets/CV.pdf" download="Rolex-Ogada-CV.pdf" class="btn btn-outline btn-lg">
           <svg class="icon" viewBox="0 0 24 24" stroke="currentColor"
             fill="none" stroke-width="2" stroke-linecap="round"
             stroke-linejoin="round">
@@ -127,7 +127,62 @@
 <section class="container section three-col">
   <div id="experience" class="card">
     <div class="row"><svg class="icon primary" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg><h2 class="h-sm">Work Experience</h2></div>
-    <ol class="timeline"><li><span class="dot"></span><p class="period">Feb 2024 – Present</p><h3>Desktop Support Engineer – Outsourced (DTB Bank)</h3><p class="muted sm">Providing technical support, troubleshooting and maintenance for end users, ensuring smooth IT operations and minimal downtime.</p></li><li><span class="dot"></span><p class="period">Jan 2022 – Jan 2024</p><h3>IT Support Assistant</h3><p class="muted sm">Hardware and software support, user training and system setup for individuals and small businesses.</p></li></ol>
+    <ol class="timeline">
+      <li><span class="dot"></span><p class="period">Feb 2025 – Present</p><h3>IT Desktop Support – Computech Limited, DTB Bank Head Office</h3><p class="muted sm">First-line end-user support for Outlook, Teams, PCs and other applications, onsite and remotely.</p></li>
+      <li><span class="dot"></span><p class="period">Aug 2024 – Nov 2024</p><h3>ICT Preventive Maintenance</h3><p class="muted sm">System diagnostics and maintenance across Serena TPS, DTB Bank, NCBA Bank and the United Nations.</p></li>
+    </ol>
+    <button id="openExperience" type="button" class="experience-toggle btn btn-outline btn-sm" aria-haspopup="dialog" aria-controls="experienceDialog">
+      Read more experience
+      <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+    <dialog id="experienceDialog" class="experience-dialog" aria-labelledby="experienceDialogTitle">
+      <div class="experience-dialog-header">
+        <h2 id="experienceDialogTitle" class="h-md">Work Experience</h2>
+        <button id="closeExperience" type="button" class="experience-close" aria-label="Close work experience">
+          <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="experience-dialog-body">
+        <div class="experience-expanded">
+        <article class="experience-role">
+          <p class="period">Feb 2025 – Present</p>
+          <h3>IT Desktop Support | Computech Limited, Diamond Trust Bank Head Office</h3>
+          <ul class="experience-duties">
+            <li>Provide first-line support for Outlook, Teams, PCs and other applications.</li>
+            <li>Diagnose and resolve hardware and software issues remotely and onsite.</li>
+            <li>Escalate complex issues, respond promptly to minimize downtime, and document solutions.</li>
+          </ul>
+        </article>
+        <article class="experience-role">
+          <p class="period">Aug 2024 – Nov 2024</p>
+          <h3>ICT Preventive Maintenance</h3>
+          <p class="muted xs">Serena TPS, DTB Bank, NCBA Bank and United Nations</p>
+          <ul class="experience-duties">
+            <li>Performed preventive maintenance and diagnostics to support system uptime.</li>
+            <li>Improved performance through updates, defragmentation and monitoring tools.</li>
+            <li>Followed IT standards and safety protocols; prepared reports and recommended upgrades.</li>
+          </ul>
+        </article>
+        <article class="experience-role">
+          <p class="period">Aug 2023 – Feb 2024</p>
+          <h3>IT Support Intern | Computer Ways Limited</h3>
+          <ul class="experience-duties">
+            <li>Maintained and repaired computers, printers and peripherals.</li>
+            <li>Assisted with network configuration, administration and troubleshooting.</li>
+            <li>Supported web development projects and team collaboration.</li>
+          </ul>
+        </article>
+        <article class="experience-role">
+          <p class="period">Sep 2021 – Dec 2021</p>
+          <h3>IT Attaché | Lingxnet Cyber</h3>
+          <ul class="experience-duties">
+            <li>Assisted customers with computer and internet use, printing and document services.</li>
+            <li>Maintained network security, performed routine updates and provided basic technical support.</li>
+          </ul>
+        </article>
+        </div>
+      </div>
+    </dialog>
   </div>
   <div class="card">
     <div class="row"><svg class="icon primary" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg><h2 class="h-sm">Key Achievements</h2></div>
@@ -136,6 +191,69 @@
   <div id="projects" class="card">
     <div class="row"><svg class="icon primary" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/></svg><h2 class="h-sm">Projects &amp; Interest</h2></div>
     <div class="projects"><div class="proj"><span class="badge"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></span><div class="min0"><p class="proj-t">Android Apps Development</p><p class="muted xs">Built and published useful Android apps (Learn English, ITIL4 Notes, Video Trimmer).</p></div><svg class="icon dim" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div><div class="proj"><span class="badge"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/></svg></span><div class="min0"><p class="proj-t">UI/UX Design (Figma)</p><p class="muted xs">Passionate about creating clean and modern user interfaces (ongoing learning).</p></div><svg class="icon dim" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div><div class="proj"><span class="badge"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></span><div class="min0"><p class="proj-t">Video Downloader App</p><p class="muted xs">Developed a social video downloader app (FB, IG, TikTok, X and more).</p></div><svg class="icon dim" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
+  </div>
+</section>
+
+<section id="certifications" class="container section">
+  <div class="certifications-head">
+    <h2 class="h-md">Certifications</h2>
+    <p class="muted sm">Professional training and credentials.</p>
+  </div>
+  <div class="certifications-grid">
+    <article class="card certificate-card">
+      <div class="certificate-preview"><iframe src="assets/e-cert-Itilv5.pdf#page=1&amp;zoom=page-fit" title="ITIL v5 certificate" loading="lazy"></iframe></div>
+      <div class="certificate-info">
+        <h3>ITIL v5</h3>
+        <a class="certificate-download" href="assets/e-cert-Itilv5.pdf" download="e-cert-Itilv5.pdf">
+          <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download certificate
+        </a>
+      </div>
+    </article>
+    <article class="card certificate-card">
+      <div class="certificate-preview">
+        <object data="assets/comptia-a-plus.pdf#page=1&amp;zoom=page-fit" type="application/pdf" aria-label="CompTIA A+ certificate preview">
+          <span class="certificate-pending">Certificate PDF coming soon</span>
+        </object>
+      </div>
+      <div class="certificate-info">
+        <h3>CompTIA A+</h3>
+        <a class="certificate-download" href="assets/comptia-a-plus.pdf" download="comptia-a-plus.pdf">
+          <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download certificate
+        </a>
+      </div>
+    </article>
+    <article class="card certificate-card">
+      <div class="certificate-preview"><iframe src="assets/udemy_figma.pdf#page=1&amp;zoom=page-fit" title="Figma certificate from Udemy" loading="lazy"></iframe></div>
+      <div class="certificate-info">
+        <h3>Figma (Udemy)</h3>
+        <a class="certificate-download" href="assets/udemy_figma.pdf" download="udemy_figma.pdf">
+          <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download certificate
+        </a>
+      </div>
+    </article>
+    <article class="card certificate-card">
+      <div class="certificate-preview"><iframe src="assets/Itil4.pdf#page=1&amp;zoom=page-fit" title="ITIL 4 certificate" loading="lazy"></iframe></div>
+      <div class="certificate-info">
+        <h3>ITIL 4</h3>
+        <a class="certificate-download" href="assets/Itil4.pdf" download="Itil4.pdf">
+          <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download certificate
+        </a>
+      </div>
+    </article>
+    <article class="card certificate-card">
+      <div class="certificate-preview"><iframe src="assets/oracle-Rolex%20eCertificate.pdf#page=1&amp;zoom=page-fit" title="Oracle Cloud Infrastructure certificate" loading="lazy"></iframe></div>
+      <div class="certificate-info">
+        <h3>Oracle Cloud Infrastructure</h3>
+        <a class="certificate-download" href="assets/oracle-Rolex%20eCertificate.pdf" download="oracle-Rolex eCertificate.pdf">
+          <svg class="icon sm" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download certificate
+        </a>
+      </div>
+    </article>
   </div>
 </section>
 
@@ -150,7 +268,7 @@
     </div>
     <div class="cta-actions">
       <a href="mailto:hello@rolexogada.com" class="btn btn-light"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg> Get In Touch</a>
-      <a href="mailto:hello@rolexogada.com?subject=CV%20Request" class="btn btn-ghost"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Download CV</a>
+      <a href="assets/CV.pdf" download="Rolex-Ogada-CV.pdf" class="btn btn-ghost"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Download CV</a>
     </div>
   </div>
 </section>

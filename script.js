@@ -24,4 +24,21 @@ window.addEventListener('resize', () => {
 });
 
 // Footer year
+const experienceDialog = document.getElementById('experienceDialog');
+const openExperienceButton = document.getElementById('openExperience');
+const closeExperienceButton = document.getElementById('closeExperience');
+
+openExperienceButton.addEventListener('click', () => experienceDialog.showModal());
+closeExperienceButton.addEventListener('click', () => experienceDialog.close());
+document.addEventListener('click', (event) => {
+  if (openExperienceButton.contains(event.target) || !experienceDialog.open) return;
+  const bounds = experienceDialog.getBoundingClientRect();
+  const outside = event.clientX < bounds.left || event.clientX > bounds.right ||
+    event.clientY < bounds.top || event.clientY > bounds.bottom;
+  if (outside) experienceDialog.close();
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && experienceDialog.open) experienceDialog.close();
+});
+
 document.getElementById('year').textContent = new Date().getFullYear();
